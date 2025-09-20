@@ -1,6 +1,217 @@
-Nama Lengkap : Haris
-NIM : 202255202016
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumuman Anggota Baru ORMAWA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --yellow: #FFC107;
+            --blue-dark: #1976D2;
+            --white: #FFFFFF;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .header {
+            background-color: var(--blue-dark);
+            color: var(--white);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+        .header img {
+            height: 60px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.8em;
+            font-weight: 700;
+            flex-grow: 1;
+        }
+        .hero {
+            background-color: var(--white);
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .hero .icon {
+            font-size: 5em;
+            color: var(--yellow);
+            animation: pulse 1s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .hero h2 {
+            color: var(--yellow);
+            font-size: 2.5em;
+            margin: 10px 0;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .division {
+            margin-bottom: 40px;
+        }
+        .division h3 {
+            color: var(--blue-dark);
+            font-size: 1.5em;
+            border-bottom: 3px solid var(--yellow);
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .division ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .division li {
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #eee;
+            font-size: 1.1em;
+        }
+        .steps {
+            background-color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+        .steps h3 {
+            color: var(--blue-dark);
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .steps ol {
+            display: inline-block;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+        .steps li {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .btn {
+            background-color: var(--yellow);
+            color: var(--blue-dark);
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            margin-top: 20px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #FFD54F;
+        }
+        .footer {
+            background-color: var(--blue-dark);
+            color: var(--white);
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
 
-Bahasa Pemrograman yang dikuasai
-1. PHP
-2. Javascript
+    <div class="header">
+        <img src="https://via.placeholder.com/150x60.png?text=Logo+ORMAWA" alt="Logo ORMAWA">
+        <h1>PENGUMUMAN SELEKSI ANGGOTA BARU</h1>
+        <img src="https://via.placeholder.com/150x60.png?text=Logo+UT" alt="Logo Universitas Terbuka">
+    </div>
+
+    <div class="hero">
+        <span class="icon">&#128227;</span> <h2>SELAMAT KEPADA CALON ANGGOTA BARU!</h2>
+        <p>Berikut adalah daftar nama-nama yang berhasil lolos seleksi di 4 divisi.</p>
+    </div>
+
+    <div class="container">
+        
+        <div class="division">
+            <h3>1. Penalaran & Keilmuan</h3>
+            <ul>
+                <li>Angga Rizky Novianto Fattah</li>
+                <li>Dedek Suryana</li>
+                <li>Grafia Papuani Goram</li>
+                <li>Marlein Ema Pattikawa</li>
+                <li>Felicia Anggini Faiz Amera</li>
+            </ul>
+        </div>
+
+        <div class="division">
+            <h3>2. Minat Bakat</h3>
+            <ul>
+                <li>Veny Patandung Mangiri</li>
+                <li>Fadila Antalisa</li>
+                <li>M. Mirza Usman</li>
+                <li>Lucia Efina Angeline</li>
+                <li>Indah Citra Lestari</li>
+            </ul>
+        </div>
+
+        <div class="division">
+            <h3>3. Kepedulian & Kesejahteraan</h3>
+            <ul>
+                <li>Vany Yakobus</li>
+                <li>Fitria Ramadhani</li>
+                <li>Foni Fenan Ferdinan</li>
+                <li>Kezia Natalia Bansaleng</li>
+                <li>Jessy Syana Rachel Away</li>
+            </ul>
+        </div>
+
+        <div class="division">
+            <h3>4. Kehumasan</h3>
+            <ul>
+                <li>Nurmia Zakaria</li>
+                <li>Zein Tri Arzeza</li>
+                <li>Umar Gazaly Tihurua</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="steps">
+        <h3>Langkah Selanjutnya</h3>
+        <p>Selamat bergabung! Berikut adalah beberapa langkah yang perlu Anda lakukan:</p>
+        <ol>
+            <li>Mohon lakukan registrasi ulang di kantor sekretariat ORMAWA pada tanggal 25-27 September 2025.</li>
+            <li>Segera bergabung ke grup WhatsApp resmi calon anggota baru melalui tautan yang akan kami kirimkan.</li>
+            <li>Pertemuan perdana akan diadakan pada 28 September 2025 di Auditorium Universitas Terbuka Sorong.</li>
+        </ol>
+        <a href="#" class="btn">HUBUNGI ADMIN</a>
+    </div>
+
+    <div class="footer">
+        <p>ORMAWA Universitas Terbuka Sorong &copy; 2025</p>
+    </div>
+
+</body>
+</html>
